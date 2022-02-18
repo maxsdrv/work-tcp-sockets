@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{761A3FF7-C6A8-3CCC-AB87-95D724F6A8C0}</ProjectGuid>
+    <ProjectGuid>{C6C84281-6C85-30D4-BE35-D4CDB158E6C8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>TCPSocket</ProjectName>
@@ -55,25 +55,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">TCPSocket.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">TCPSocket</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">TCPSocket.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">TCPSocket</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\bin\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">TCPSocket.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">TCPSocket</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\bin\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">TCPSocket.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">TCPSocket</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
@@ -82,7 +82,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_Debug;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_Debug;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -std:c++latest</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -99,10 +99,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_Debug;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_Debug;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_Debug;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_Debug;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,11 +112,11 @@
     <PreBuildEvent>
       <Message>Automatic MOC for target TCPSocket</Message>
       <Command>setlocal
-cd E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket
+cd E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket
 if %errorlevel% neq 0 goto :cmEnd
 E:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/TCPSocket_autogen.dir/AutogenInfo.json Debug
+"E:\Maxim\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E cmake_autogen E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/TCPSocket_autogen.dir/AutogenInfo.json Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,8 +131,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/TCPSocket/Debug/TCPSocket.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/bin/Debug/TCPSocket.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/Debug/TCPSocket.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/bin/Debug/TCPSocket.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -141,7 +141,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_Release;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_Release;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -std:c++latest</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -158,10 +158,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_Release;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_Release;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_Release;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_Release;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -171,11 +171,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message>Automatic MOC for target TCPSocket</Message>
       <Command>setlocal
-cd E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket
+cd E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket
 if %errorlevel% neq 0 goto :cmEnd
 E:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/TCPSocket_autogen.dir/AutogenInfo.json Release
+"E:\Maxim\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E cmake_autogen E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/TCPSocket_autogen.dir/AutogenInfo.json Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -190,8 +190,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/TCPSocket/Release/TCPSocket.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/bin/Release/TCPSocket.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/Release/TCPSocket.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/bin/Release/TCPSocket.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -200,7 +200,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_MinSizeRel;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_MinSizeRel;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -std:c++latest</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -217,10 +217,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_MinSizeRel;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_MinSizeRel;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_MinSizeRel;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_MinSizeRel;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -230,11 +230,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message>Automatic MOC for target TCPSocket</Message>
       <Command>setlocal
-cd E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket
+cd E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket
 if %errorlevel% neq 0 goto :cmEnd
 E:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/TCPSocket_autogen.dir/AutogenInfo.json MinSizeRel
+"E:\Maxim\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E cmake_autogen E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/TCPSocket_autogen.dir/AutogenInfo.json MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -249,8 +249,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/TCPSocket/MinSizeRel/TCPSocket.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/bin/MinSizeRel/TCPSocket.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/MinSizeRel/TCPSocket.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/bin/MinSizeRel/TCPSocket.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -259,7 +259,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_RelWithDebInfo;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_RelWithDebInfo;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -std:c++latest</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -275,10 +275,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_RelWithDebInfo;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_RelWithDebInfo;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_RelWithDebInfo;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\include_RelWithDebInfo;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtCore;C:\Qt\Qt5.10.1\5.10.1\msvc2015\.\mkspecs\win32-msvc;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtWidgets;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtGui;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtANGLE;C:\Qt\Qt5.10.1\5.10.1\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -288,11 +288,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message>Automatic MOC for target TCPSocket</Message>
       <Command>setlocal
-cd E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket
+cd E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket
 if %errorlevel% neq 0 goto :cmEnd
 E:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/TCPSocket_autogen.dir/AutogenInfo.json RelWithDebInfo
+"E:\Maxim\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E cmake_autogen E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/TCPSocket_autogen.dir/AutogenInfo.json RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -307,8 +307,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/TCPSocket/RelWithDebInfo/TCPSocket.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/bin/RelWithDebInfo/TCPSocket.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/RelWithDebInfo/TCPSocket.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/bin/RelWithDebInfo/TCPSocket.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -316,10 +316,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\TCPSocket\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/TCPSocket/CMakeLists.txt</Message>
+    <CustomBuild Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\TCPSocket\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/TCPSocket/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp -BE:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug --check-stamp-file E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/generate.stamp
+"E:\Maxim\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -SE:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp -BE:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug --check-stamp-file E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -327,12 +327,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;E:\Maxim\CLion 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/TCPSocket/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/TCPSocket/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp -BE:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug --check-stamp-file E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/generate.stamp
+"E:\Maxim\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -SE:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp -BE:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug --check-stamp-file E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -340,12 +340,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;E:\Maxim\CLion 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/TCPSocket/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/TCPSocket/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp -BE:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug --check-stamp-file E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/generate.stamp
+"E:\Maxim\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -SE:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp -BE:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug --check-stamp-file E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -353,12 +353,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;E:\Maxim\CLion 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/TCPSocket/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/TCPSocket/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp -BE:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug --check-stamp-file E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/generate.stamp
+"E:\Maxim\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -SE:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp -BE:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug --check-stamp-file E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -366,37 +366,41 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\Qt5.10.1\5.10.1\msvc2015\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;E:\Maxim\CLion 2021.3.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\mocs_compilation_Debug.cpp">
+    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\mocs_compilation_Debug.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\TCPSocket\main.cpp" />
-    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\mocs_compilation_Release.cpp">
+    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\TCPSocket\Dialog.cpp" />
+    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\TCPSocket\MyServer.cpp" />
+    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\TCPSocket\main.cpp" />
+    <ClInclude Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\TCPSocket\Dialog.h" />
+    <ClInclude Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\TCPSocket\MyServer.h" />
+    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\mocs_compilation_Release.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\mocs_compilation_MinSizeRel.cpp">
+    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\mocs_compilation_MinSizeRel.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\mocs_compilation_RelWithDebInfo.cpp">
+    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\TCPSocket\TCPSocket_autogen\mocs_compilation_RelWithDebInfo.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\ZERO_CHECK.vcxproj">
-      <Project>{33A24CEC-998B-3568-A202-4DE1C7F9BDA8}</Project>
+    <ProjectReference Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\ZERO_CHECK.vcxproj">
+      <Project>{6FFC588B-F7ED-314A-A067-293D965E9EA9}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -1,51 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\FortuneServer\FortuneServer_autogen\mocs_compilation_Debug.cpp">
+    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\FortuneServer\FortuneServer_autogen\mocs_compilation_Debug.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\FortuneServer\dialog.cpp">
+    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\FortuneServer\dialog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\FortuneServer\fortuneserver.cpp">
+    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\FortuneServer\fortuneserver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\FortuneServer\fortunethread.cpp">
+    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\FortuneServer\fortunethread.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\FortuneServer\main.cpp">
+    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\FortuneServer\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\FortuneServer\FortuneServer_autogen\mocs_compilation_Release.cpp">
+    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\FortuneServer\FortuneServer_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\FortuneServer\FortuneServer_autogen\mocs_compilation_MinSizeRel.cpp">
+    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\FortuneServer\FortuneServer_autogen\mocs_compilation_MinSizeRel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\cmake-build-debug\FortuneServer\FortuneServer_autogen\mocs_compilation_RelWithDebInfo.cpp">
+    <ClCompile Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\cmake-build-debug\FortuneServer\FortuneServer_autogen\mocs_compilation_RelWithDebInfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\FortuneServer\dialog.h">
+    <ClInclude Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\FortuneServer\dialog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\FortuneServer\fortuneserver.h">
+    <ClInclude Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\FortuneServer\fortuneserver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\FortuneServer\fortunethread.h">
+    <ClInclude Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\FortuneServer\fortunethread.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\network-cpp\FortuneServer\CMakeLists.txt" />
+    <CustomBuild Include="E:\Maxim\WorkEnvironment\Cpp\Other\my_code\homework_network\work-tcp-sockets\network-cpp\FortuneServer\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{724C23E7-98E7-3680-8FC4-33388C9C7D27}</UniqueIdentifier>
+      <UniqueIdentifier>{68E299E1-D27E-3346-89EE-2EDDB240FF03}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{7CC47CD4-4778-3754-919E-E6EB1F48919F}</UniqueIdentifier>
+      <UniqueIdentifier>{FE17D1D7-B41C-3E46-9CF6-0009968D8E88}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

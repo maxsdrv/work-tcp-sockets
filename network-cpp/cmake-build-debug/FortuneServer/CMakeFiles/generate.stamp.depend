@@ -1,5 +1,4 @@
 # CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeParseArguments.cmake
 C:/Qt/Qt5.10.1/5.10.1/msvc2015/lib/cmake/Qt5Core/Qt5CoreConfig.cmake
 C:/Qt/Qt5.10.1/5.10.1/msvc2015/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake
 C:/Qt/Qt5.10.1/5.10.1/msvc2015/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake
@@ -29,4 +28,5 @@ C:/Qt/Qt5.10.1/5.10.1/msvc2015/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake
 C:/Qt/Qt5.10.1/5.10.1/msvc2015/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake
 C:/Qt/Qt5.10.1/5.10.1/msvc2015/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake
 C:/Qt/Qt5.10.1/5.10.1/msvc2015/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake
-E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/FortuneServer/CMakeLists.txt
+E:/Maxim/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseArguments.cmake
+E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/FortuneServer/CMakeLists.txt

@@ -1,7 +1,14 @@
 #include <iostream>
+#include <QApplication>
 
-int main() {
+#include "Dialog.h"
 
-    return 0;
+int main(int argc, char *argv[]) {
+    QApplication app(argc, argv);
+
+    Dialog dialog;
+    dialog.show();
+
+    return QApplication::exec();
 }
 

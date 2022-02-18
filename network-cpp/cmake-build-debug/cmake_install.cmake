@@ -1,4 +1,4 @@
-# Install script for directory: E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp
+# Install script for directory: E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,17 +34,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/FortuneClient/cmake_install.cmake")
+  include("E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/FortuneClient/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/FortuneServer/cmake_install.cmake")
+  include("E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/FortuneServer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/TCPSocket/cmake_install.cmake")
+  include("E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/JsonClient/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

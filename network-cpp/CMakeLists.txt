@@ -14,8 +14,9 @@ if (NOT DEFINED CMAKE_BUILD_TYPE)
     SET(CMAKE_BUILD_TYPE "Debug") # устанавливаем генератор в Debug версию
 endif()
 
-add_subdirectory(FortuneClient) # добавляем поддиректории наших проектов
+# добавляем поддиректории наших проектов
+add_subdirectory(FortuneClient)
 add_subdirectory(FortuneServer)
 add_subdirectory(TCPSocket)
-
+add_subdirectory(JsonClient)
 

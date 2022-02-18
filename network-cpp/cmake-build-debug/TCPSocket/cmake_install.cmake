@@ -1,4 +1,4 @@
-# Install script for directory: E:/Maxim/WorkEnvironment/Cpp/Other/my_code/network-cpp/TCPSocket
+# Install script for directory: E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/TCPSocket
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
