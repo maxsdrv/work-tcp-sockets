@@ -22,7 +22,7 @@ private:
     QJsonParseError docError;
 
 public slots:
-    void incomingConnection(int socketDescriptor) override; // описание действий в случае присоеденения нового клиента
+    void incomingConnection(qintptr socketDescriptor) override; // описание действий в случае присоеденения нового клиента
     void sockReady(); // метод описания готовности сокета читать полученные данные
 };
 

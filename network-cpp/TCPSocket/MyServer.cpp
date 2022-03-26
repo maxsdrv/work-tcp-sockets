@@ -13,7 +13,7 @@ MyServer::~MyServer() {
 }
 
 
-void MyServer::incomingConnection(int socketDescriptor) {
+void MyServer::incomingConnection(qintptr socketDescriptor) {
     _socket = new QTcpSocket(this); // create new socket
     _socket->setSocketDescriptor(socketDescriptor); // send socket descriptor
 

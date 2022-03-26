@@ -15,8 +15,6 @@ if (NOT DEFINED CMAKE_BUILD_TYPE)
 endif()
 
 # добавляем поддиректории наших проектов
-add_subdirectory(FortuneClient)
-add_subdirectory(FortuneServer)
 add_subdirectory(TCPSocket)
-add_subdirectory(JsonClient)
+#add_subdirectory(JsonClient)
 

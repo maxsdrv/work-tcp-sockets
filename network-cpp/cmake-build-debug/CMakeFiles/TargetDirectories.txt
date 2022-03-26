@@ -1,10 +1,6 @@
-E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/CMakeFiles/ALL_BUILD.dir
-E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/CMakeFiles/ZERO_CHECK.dir
-E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/FortuneClient/CMakeFiles/FortuneClient.dir
-E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/FortuneClient/CMakeFiles/ALL_BUILD.dir
-E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/FortuneServer/CMakeFiles/FortuneServer.dir
-E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/FortuneServer/CMakeFiles/ALL_BUILD.dir
-E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/TCPSocket.dir
-E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/ALL_BUILD.dir
-E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/JsonClient/CMakeFiles/JsonClient.dir
-E:/Maxim/WorkEnvironment/Cpp/Other/my_code/homework_network/work-tcp-sockets/network-cpp/cmake-build-debug/JsonClient/CMakeFiles/ALL_BUILD.dir
+/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/edit_cache.dir
+/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/rebuild_cache.dir
+/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/TCPSocket.dir
+/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/CMakeFiles/TCPSocket_autogen.dir

@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "TCPSocket",
+					"jsonFile" : "directory-TCPSocket-Debug-c901227e0bf03983449a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "TCPSocket",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "server"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "TCPSocket",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "TCPSocket::@c1e7cff61c32aed9921c",
+					"jsonFile" : "target-TCPSocket-Debug-f3b628e13301a6fb1c79.json",
+					"name" : "TCPSocket",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "TCPSocket_autogen::@c1e7cff61c32aed9921c",
+					"jsonFile" : "target-TCPSocket_autogen-Debug-c40e127f003d0326c871.json",
+					"name" : "TCPSocket_autogen",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug",
+		"source" : "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
