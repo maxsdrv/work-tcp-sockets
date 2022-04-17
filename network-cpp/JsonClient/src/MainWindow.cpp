@@ -3,9 +3,9 @@
 #include <QDebug>
 
 
-MainWindow::MainWindow(int _port, QWidget *parent) : QDialog(parent),
+MainWindow::MainWindow(int _port, QUrl _url, QWidget *parent) : QDialog(parent),
                                           connect_button(new QPushButton("Connect")),
-                                          m_port(_port) 
+                                          m_port(_port)
 {
 
     _socket = new QTcpSocket(this);
@@ -18,7 +18,7 @@ MainWindow::MainWindow(int _port, QWidget *parent) : QDialog(parent),
 
 
     auto quit_button = new QPushButton(tr("Quit"));
-    get_button = new QPushButton(tr("GetListWorkers"));
+    get_button = new QPushButton(tr("DownloadFile"));
 
     auto button_box = new QDialogButtonBox;
     button_box->addButton(connect_button, QDialogButtonBox::ActionRole);
@@ -27,7 +27,7 @@ MainWindow::MainWindow(int _port, QWidget *parent) : QDialog(parent),
 
     connect(_socket, &QTcpSocket::readyRead, this, &MainWindow::sock_ready);
     connect(connect_button, &QAbstractButton::clicked, this, &MainWindow::push_button_connect);
-    connect(get_button, &QAbstractButton::clicked, this, &MainWindow::push_button_get);
+    //connect(get_button, &QAbstractButton::clicked, this, &MainWindow::push_button_get);
     connect(quit_button, &QAbstractButton::clicked, this, &MainWindow::close);
 
     auto *mainLayout = new QGridLayout(this);
@@ -43,46 +43,26 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::sock_ready() {
-    if (_socket->waitForConnected(500)) { //eсли соеденение устойчивое
+    if (_socket->waitForConnected(500))
+    { //eсли соеденение устойчивое
         _socket->waitForReadyRead(500); // ждём для чтения
         _data = _socket->readAll(); // записываем всё содержимое сокета
-
-        doc = QJsonDocument::fromJson(_data, &doc_error);
-
-        if (doc_error.errorString().toInt() == QJsonParseError::NoError) {
-            if ((doc.object().value("type").toString() == "connect") &&
-                (doc.object().value("status").toString() == "yes")) {
-
-                QMessageBox::information(this, "Info", "Connect successfully");
-            }
-            else if (doc.object().value("type").toString() == "resultSelect") {
-                auto *model = new QStandardItemModel(nullptr);
-                model->setHorizontalHeaderLabels(QStringList() << "name");
-
-                QJsonArray docArr = doc.object().value("result").toArray();
-                for (int i = 0; i < docArr.count(); ++i) {
-                    auto *col = new QStandardItem(docArr[i].toObject().value("name").toString());
-                    model->appendRow(col);
-                }
-
-                table_view->setModel(model);
-            }
-            else {
-                QMessageBox::information(this, "Info", "Connect wrong");
-            }
-        }
-        else {
-            QMessageBox::information(this, "Info", "Format is not correct" + doc_error.errorString());
-        }
     }
-
+    
 }
-
 
 void MainWindow::push_button_connect() {
     connect_button->setEnabled(false);
 
     _socket->connectToHost("localhost", m_port); //соеденение с хостом
+    if (_socket->socketDescriptor() < 1 )
+    {
+        QMessageBox msgBox;
+        msgBox.critical(this, "Connect to Host", "CONNECTION::ERROR");
+    }
+    else QMessageBox::information(this, "Info", "CONNECTION::SUCCESSFULLY");
+
+    connect_button->setEnabled(true);
 }
 
 void MainWindow::push_button_get() {
@@ -95,6 +75,34 @@ void MainWindow::push_button_get() {
     else {
         QMessageBox::information(this, "Info", "Connect is not stable");
     }
+
     get_button->setEnabled(true);
 }
+
+void MainWindow::file_download(QNetworkReply* prt_reply)
+{
+    
+}
+
+QByteArray MainWindow::download_data() const
+{
+    return _data;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

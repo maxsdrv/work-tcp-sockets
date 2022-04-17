@@ -19,14 +19,22 @@ int main(int argc, char *argv[])
     if (argc != 2)
     {
         std::cerr << "missing port ..." << '\n';
+        return EXIT_FAILURE;
     }
+    else if (argc != 3)
+    {
+        std::cerr << "missing url ..." << '\n';
+        return EXIT_FAILURE;
+    }
+
     unsigned short port = std::stoi(argv[1]);
+    QString url = argv[2];
 
     DisableRatio();
     QApplication app(argc, argv);
     
     
-    MainWindow window(port);
+    MainWindow window(port, url);
     window.show(); 
 
     return app.exec();
