@@ -3,7 +3,7 @@
 	"CMAKE_BINARY_DIR" : "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug",
 	"CMAKE_CURRENT_BINARY_DIR" : "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket",
 	"CMAKE_CURRENT_SOURCE_DIR" : "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket",
-	"CMAKE_EXECUTABLE" : "/snap/clion/184/bin/cmake/linux/bin/cmake",
+	"CMAKE_EXECUTABLE" : "/usr/local/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
 		"/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/CMakeLists.txt",
@@ -12,7 +12,7 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
-		"/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseArguments.cmake",
+		"/usr/local/share/cmake-3.23/Modules/CMakeParseArguments.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
@@ -44,7 +44,7 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
-		"/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeParseArguments.cmake",
+		"/usr/local/share/cmake-3.23/Modules/CMakeParseArguments.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake",
@@ -57,15 +57,15 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/Dialog.h",
+			"/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/src/Dialog.h",
 			"Mu",
-			"EWIEGA46WW/moc_Dialog.cpp",
+			"UVLADIE3JM/moc_Dialog.cpp",
 			null
 		],
 		[
-			"/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/MyServer.h",
+			"/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/src/MyServer.h",
 			"Mu",
-			"EWIEGA46WW/moc_MyServer.cpp",
+			"UVLADIE3JM/moc_MyServer.cpp",
 			null
 		]
 	],
@@ -105,7 +105,7 @@
 		"-dM",
 		"-E",
 		"-c",
-		"/snap/clion/184/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp"
+		"/usr/local/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp"
 	],
 	"MOC_PREDEFS_FILE" : "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/TCPSocket_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
@@ -121,17 +121,17 @@
 	"SOURCES" : 
 	[
 		[
-			"/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/Dialog.cpp",
+			"/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/src/Dialog.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/MyServer.cpp",
+			"/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/src/MyServer.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/main.cpp",
+			"/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/src/main.cpp",
 			"Mu",
 			null
 		]

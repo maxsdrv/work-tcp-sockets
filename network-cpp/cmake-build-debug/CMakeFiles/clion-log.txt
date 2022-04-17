@@ -1,4 +1,0 @@
-/snap/clion/184/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" /home/maxim/Cpp/network/work-tcp-sockets/network-cpp
--- Configuring done
--- Generating done
--- Build files have been written to: /home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug

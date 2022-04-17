@@ -1,2 +1,3 @@
 # Hashes of file build rules.
-9d86cfb2c7bc53a5f697e47fd42a9cb6 TCPSocket/CMakeFiles/TCPSocket_autogen
+5d57d91fb0c05a6be71ccefa4b2db960 JsonClient/CMakeFiles/JsonClient_autogen
+ce86d05a8b36ed73c0c5e70bb3840493 TCPSocket/CMakeFiles/TCPSocket_autogen

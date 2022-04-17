@@ -16,5 +16,5 @@ endif()
 
 # добавляем поддиректории наших проектов
 add_subdirectory(TCPSocket)
-#add_subdirectory(JsonClient)
+add_subdirectory(JsonClient)
 

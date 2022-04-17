@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/TCPSocket_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -fPIC -std=gnu++17 -o CMakeFiles/TCPSocket.dir/TCPSocket_autogen/mocs_compilation.cpp.o -c /home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/TCPSocket_autogen/mocs_compilation.cpp",
+  "file": "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/TCPSocket_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/TCPSocket_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -fPIC -std=gnu++17 -o CMakeFiles/TCPSocket.dir/src/Dialog.cpp.o -c /home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/src/Dialog.cpp",
+  "file": "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/src/Dialog.cpp"
+},
+{
+  "directory": "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/TCPSocket_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -fPIC -std=gnu++17 -o CMakeFiles/TCPSocket.dir/src/MyServer.cpp.o -c /home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/src/MyServer.cpp",
+  "file": "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/src/MyServer.cpp"
+},
+{
+  "directory": "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/TCPSocket_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -fPIC -std=gnu++17 -o CMakeFiles/TCPSocket.dir/src/main.cpp.o -c /home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/src/main.cpp",
+  "file": "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/src/main.cpp"
+},
+{
+  "directory": "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/JsonClient",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/JsonClient/JsonClient_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -fPIC -std=gnu++17 -o CMakeFiles/JsonClient.dir/JsonClient_autogen/mocs_compilation.cpp.o -c /home/maxim/Cpp/network/work-tcp-sockets/network-cpp/JsonClient/JsonClient_autogen/mocs_compilation.cpp",
+  "file": "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/JsonClient/JsonClient_autogen/mocs_compilation.cpp"
+}
+]

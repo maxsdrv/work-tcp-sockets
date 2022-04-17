@@ -1,8 +1,8 @@
 TCPSocket/CMakeFiles/TCPSocket.dir/TCPSocket_autogen/mocs_compilation.cpp.o: \
  /home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/TCPSocket_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/TCPSocket_autogen/EWIEGA46WW/moc_Dialog.cpp \
- /home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/TCPSocket_autogen/EWIEGA46WW/../../../../TCPSocket/Dialog.h \
+ /home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/TCPSocket_autogen/UVLADIE3JM/moc_Dialog.cpp \
+ /home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/TCPSocket_autogen/UVLADIE3JM/../../../../TCPSocket/src/Dialog.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -878,7 +878,7 @@ TCPSocket/CMakeFiles/TCPSocket.dir/TCPSocket_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidgetaction.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsversion.h \
- /home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/TCPSocket_autogen/EWIEGA46WW/../../../../TCPSocket/MyServer.h \
+ /home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/TCPSocket_autogen/UVLADIE3JM/../../../../TCPSocket/src/MyServer.h \
  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QTcpSocket \
  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpsocket.h \
  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h \
@@ -890,5 +890,5 @@ TCPSocket/CMakeFiles/TCPSocket.dir/TCPSocket_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonParseError \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument \
- /home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/TCPSocket_autogen/EWIEGA46WW/moc_MyServer.cpp \
- /home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/TCPSocket_autogen/EWIEGA46WW/../../../../TCPSocket/MyServer.h
+ /home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/TCPSocket_autogen/UVLADIE3JM/moc_MyServer.cpp \
+ /home/maxim/Cpp/network/work-tcp-sockets/network-cpp/cmake-build-debug/TCPSocket/TCPSocket_autogen/UVLADIE3JM/../../../../TCPSocket/src/MyServer.h
