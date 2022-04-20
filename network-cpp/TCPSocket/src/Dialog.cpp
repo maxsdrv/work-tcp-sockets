@@ -22,9 +22,8 @@ Dialog::Dialog(QWidget *parent) : QWidget(parent)
     //use IPv4 localhost
     QString ipAddress {};
 
-    if (ipAddress.isEmpty()) {
-        ipAddress = QHostAddress(QHostAddress::LocalHost).toString();
-    }
+    ipAddress = QHostAddress(QHostAddress::LocalHost).toString();
+
     status_label->setText(tr("The server is running on\n\nIP: %1\nport: %2\n\n")
                                   .arg(ipAddress).arg(server.serverPort()));
 

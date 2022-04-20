@@ -1,6 +1,7 @@
 #include "MainWindow.h"
 #include <QPushButton>
 #include <QDebug>
+#include <iostream>
 
 
 MainWindow::MainWindow(int _port, QUrl _url, QWidget *parent) : QDialog(parent),
@@ -54,7 +55,14 @@ void MainWindow::sock_ready() {
 void MainWindow::push_button_connect() {
     connect_button->setEnabled(false);
 
-    _socket->connectToHost("localhost", m_port); //соеденение с хостом
+    _socket->connectToHost("10.44.4.15", m_port); //соеденение с хостом
+    
+    if (_socket->waitForConnected(3000))
+    {
+        qDebug() << "waiting OK ...";
+    }
+    else std::cerr << "WAITING::ERROR" << '\n';
+
     if (_socket->socketDescriptor() < 1 )
     {
         QMessageBox msgBox;

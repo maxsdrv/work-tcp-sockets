@@ -16,14 +16,9 @@ static void DisableRatio()
 
 int main(int argc, char *argv[])
 {
-    if (argc != 2)
+    if (argc != 3)
     {
-        std::cerr << "missing port ..." << '\n';
-        return EXIT_FAILURE;
-    }
-    else if (argc != 3)
-    {
-        std::cerr << "missing url ..." << '\n';
+        std::cerr << "missing port or url ..." << '\n';
         return EXIT_FAILURE;
     }
 

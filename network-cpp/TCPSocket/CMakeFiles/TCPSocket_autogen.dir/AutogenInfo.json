@@ -1,18 +1,18 @@
 {
-	"BUILD_DIR" : "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/TCPSocket_autogen",
-	"CMAKE_BINARY_DIR" : "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket",
-	"CMAKE_EXECUTABLE" : "/usr/local/bin/cmake",
+	"BUILD_DIR" : "/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp/TCPSocket/TCPSocket_autogen",
+	"CMAKE_BINARY_DIR" : "/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp/TCPSocket",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp/TCPSocket",
+	"CMAKE_EXECUTABLE" : "/home/maxim/CLion-2021.3.3/clion-2021.3.3/bin/cmake/linux/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/CMakeLists.txt",
+		"/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp/TCPSocket/CMakeLists.txt",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
-		"/usr/local/share/cmake-3.23/Modules/CMakeParseArguments.cmake",
+		"/home/maxim/CLion-2021.3.3/clion-2021.3.3/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseArguments.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
@@ -44,42 +44,35 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
-		"/usr/local/share/cmake-3.23/Modules/CMakeParseArguments.cmake",
+		"/home/maxim/CLion-2021.3.3/clion-2021.3.3/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseArguments.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp",
+	"CMAKE_SOURCE_DIR" : "/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/src/Dialog.h",
+			"/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp/TCPSocket/src/Dialog.h",
 			"Mu",
 			"UVLADIE3JM/moc_Dialog.cpp",
 			null
 		],
 		[
-			"/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/src/MyServer.h",
+			"/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp/TCPSocket/src/MyServer.h",
 			"Mu",
 			"UVLADIE3JM/moc_MyServer.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/TCPSocket_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/TCPSocket_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : 
-	[
-		"QT_CORE_LIB",
-		"QT_GUI_LIB",
-		"QT_NETWORK_LIB",
-		"QT_NO_DEBUG",
-		"QT_WIDGETS_LIB"
-	],
+	"INCLUDE_DIR" : "/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp/TCPSocket/TCPSocket_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp/TCPSocket/TCPSocket_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NETWORK_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -108,37 +101,37 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"/usr/bin/c++",
+		"/usr/bin/g++",
 		"-dM",
 		"-E",
 		"-c",
-		"/usr/local/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp"
+		"/home/maxim/CLion-2021.3.3/clion-2021.3.3/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/TCPSocket_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp/TCPSocket/TCPSocket_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 12,
-	"PARSE_CACHE_FILE" : "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/CMakeFiles/TCPSocket_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp/TCPSocket/CMakeFiles/TCPSocket_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 12,
-	"SETTINGS_FILE" : "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/CMakeFiles/TCPSocket_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp/TCPSocket/CMakeFiles/TCPSocket_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/src/Dialog.cpp",
+			"/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp/TCPSocket/src/Dialog.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/src/MyServer.cpp",
+			"/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp/TCPSocket/src/MyServer.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/TCPSocket/src/main.cpp",
+			"/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp/TCPSocket/src/main.cpp",
 			"Mu",
 			null
 		]

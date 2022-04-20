@@ -6,6 +6,10 @@ file(REMOVE_RECURSE
   "JsonClient_autogen"
   "CMakeFiles/JsonClient.dir/JsonClient_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/JsonClient.dir/JsonClient_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/JsonClient.dir/src/MainWindow.cpp.o"
+  "CMakeFiles/JsonClient.dir/src/MainWindow.cpp.o.d"
+  "CMakeFiles/JsonClient.dir/src/main.cpp.o"
+  "CMakeFiles/JsonClient.dir/src/main.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

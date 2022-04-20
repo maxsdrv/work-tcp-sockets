@@ -1,0 +1,10 @@
+network-cpp/.idea/
+network-cpp/.cmake/
+network-cpp/.cache/
+network-cpp/cmake-build-debug/
+network-cpp/CMakeFiles/
+network-cpp/cmake_install.cmake
+network-cpp/Makefile
+network-cpp/CMakeCache.txt
+network-cpp/.vimspector.json
+network-cpp/bin/

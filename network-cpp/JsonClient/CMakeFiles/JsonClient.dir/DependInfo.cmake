@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/maxim/Cpp/network/work-tcp-sockets/network-cpp/JsonClient/JsonClient_autogen/mocs_compilation.cpp" "JsonClient/CMakeFiles/JsonClient.dir/JsonClient_autogen/mocs_compilation.cpp.o" "gcc" "JsonClient/CMakeFiles/JsonClient.dir/JsonClient_autogen/mocs_compilation.cpp.o.d"
+  "/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp/JsonClient/JsonClient_autogen/mocs_compilation.cpp" "JsonClient/CMakeFiles/JsonClient.dir/JsonClient_autogen/mocs_compilation.cpp.o" "gcc" "JsonClient/CMakeFiles/JsonClient.dir/JsonClient_autogen/mocs_compilation.cpp.o.d"
+  "/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp/JsonClient/src/MainWindow.cpp" "JsonClient/CMakeFiles/JsonClient.dir/src/MainWindow.cpp.o" "gcc" "JsonClient/CMakeFiles/JsonClient.dir/src/MainWindow.cpp.o.d"
+  "/home/maxim/Cpp/Other/my_code/network/work-tcp-sockets/network-cpp/JsonClient/src/main.cpp" "JsonClient/CMakeFiles/JsonClient.dir/src/main.cpp.o" "gcc" "JsonClient/CMakeFiles/JsonClient.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.
